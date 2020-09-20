@@ -1,0 +1,329 @@
+.main
+{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+
+.content
+{
+	
+    height: 400px;
+	background-color:#b9b2b2;
+	width:100%;
+	text-align:center;
+	
+}
+.content h1
+{
+	    color: black;
+  
+    font-size: 5em;
+   
+    letter-spacing: 0.05em;
+    line-height: 0.9em;
+    margin: 0rem;
+   
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.image img
+{    height: 19rem;
+    width: 19rem;
+    border-radius: 50%;
+  
+    margin: 0 0;
+	box-shadow: 0px 0px 20px 7px;
+	
+}
+
+.BTN
+{
+	BACKGROUND-COLOR: #dad2d2;
+    COLOR: black;
+   
+    border-radius: 32px;
+    font-size: 15px;
+    padding: 22px 14px;
+    letter-spacing: 1px;
+    text-align: center;
+  
+    font-style: italic;
+    MARGIN-LEFT: 35REM;
+	margin-top:2rem;
+	margin-left:unset!important;
+}
+.content button:hover
+{
+	color:white;
+	background-color:black;
+	 transition:3s;
+}
+.marq
+{
+	width:100%;
+	height:50px;
+	background-color:8c9292;
+margin:auto;
+
+}
+.about
+{
+	width:100%;
+	height:409px;
+	background-color:#b9b2b2;
+	margin:auto;
+
+}
+.about_us
+{
+	width:100%;
+	
+
+	
+}
+.photo
+{
+	width: 35%;
+    background-color: black;
+    float: left;
+    height: 24rem;
+
+
+
+}
+.photo img
+{
+	height:24rem;
+	width:100%;
+	box-shadow: 0px 0px 20px 6px;
+}
+.aboutus
+{
+	
+    width: 61%;
+   
+    float: left;
+    margin-left: 32px;
+}
+
+.aboutus p
+{
+	color: black;
+    font-size: 36px;
+    margin: 8px 11px;
+}
+ .para
+{
+	color: black;
+    font-family: 'Dancing Script', cursive;
+    padding: 20px 20px;
+    margin-left: 25px;
+	text-align:justify;
+	font-size:unset;
+
+}
+ 
+
+ .skill_header
+ {
+	 
+	 background-color:#b9b2b2;
+	 height:169px;
+	text-align:center;
+ }
+
+.skill_header ul
+{
+	display: block;
+   
+    padding: 0;
+  
+
+}
+.skill_header li
+{
+	display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    
+    background: #e4e4ea;
+ 
+    font-size: 1.2em;
+
+}
+#title_skill
+ {
+	
+    color: black;
+    font-size: 36px;
+ }
+
+
+.bar
+{
+	margin-right:-3.7rem;
+    margin-left: 16rem;
+  
+
+
+}
+ .c4
+ {
+	height: 20px;
+    width: 50%;
+	margin-left: 97px;
+    padding: 0 2.4rem;
+    background-color: #bfb9b9;
+ 
+ }
+ .c5
+ {
+	height: 20px;
+    width: 50%;
+	margin-left: 97px;
+    padding: 0 2.4rem;
+    background-color: #bfb9b9;
+  
+ 
+ }
+ .c6
+ {
+	height: 20px;
+    width: 50%;
+	margin-left: 97px;
+    padding: 0 2.4rem;
+    background-color: #bfb9b9;
+  
+ 
+ }
+
+ .middle
+ {
+	 width:100%;
+	 height:264px;
+	text-align:center;
+	
+	 background-color:#b9b2b2;
+	 	
+
+ }
+
+ #title-mid
+{
+	  color: black;
+    font-size: 36px;
+}
+.date-month
+{
+	width:35%;
+	height:222px;
+	
+	float:left;
+}
+
+.experience-intro
+{
+	width:65%;
+	height:222px;
+	float:right;
+	
+}
+ .marq1
+ {
+	background-color:#8c9292;
+	width:100%;
+	height:50px;
+	margin:auto;
+	
+
+ }
+ .marq2
+ {
+	 background-color:#8c9292;
+	width:100%;
+	height:50px;
+	margin:auto;
+ }
+ 
+ .marq3
+ {
+	  background-color:#8c9292;
+	width:100%;
+	height:50px;
+	margin:auto;
+ }
+ .bar-chart
+ {
+	 height:700PX;
+	 width:60%;
+	 margin:auto;
+	 background-color:black;
+	 
+	 
+ }
+ 
+ 
+ #super
+ {
+	 float:right;
+	 margin:0;
+	 font-size:18px;
+	 color:white;
+	 padding-right: 3rem;
+ }
+ .footer
+ {
+	 height:187px;
+	 width:100%;
+	 margin:auto;
+	 background-color:#b9b2b2;
+	 padding:1px 0;
+	 
+ }
+ .contact-us
+ {
+	 width:50%;
+	 height:187px;
+	 float:left;
+	 
+ }
+ .connect-me
+ {
+	  width:50%;
+	 height:187px;
+	 float:left;
+ }
+ 
+@media only screen and (max-width:320px)
+ {
+	 .photo
+	 {
+		 height:400px;
+	 }
+	 .photo img
+	 {
+		height:400px;
+	 }
+	 
+	
+	
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
