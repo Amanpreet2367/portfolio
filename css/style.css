@@ -71,7 +71,7 @@ margin:auto;
 .about
 {
 	width:100%;
-	height:409px;
+	height:415px;
 	background-color:#b9b2b2;
 	margin:auto;
 
@@ -89,7 +89,8 @@ margin:auto;
     background-color: black;
     float: left;
     height: 24rem;
-	margin-left:2rem;
+	margin: 1rem 1rem 1rem 1rem;
+
 
 
 }
@@ -279,24 +280,56 @@ margin:auto;
  }
  .footer
  {
-	 height:187px;
+	 height:146px;
 	 width:100%;
 	 margin:auto;
 	 background-color:#b9b2b2;
 	 padding:1px 0;
 	 
  }
+ .footer-content #fb:hover
+ {
+	 background-color:blue;
+	 
+    border-radius: 50%;
+    transition: 2s;
+	 
+ }
+ .footer-content #insta:hover
+ {
+	 background-color:orange;
+	 
+    border-radius: 50%;
+    transition: 2s;
+	 
+ }
+ .footer-content #tweet:hover
+ {
+	 background-color:#00beff;
+	 
+    border-radius: 50%;
+    transition: 2s;
+	 
+ }
+ .footer-content #mail:hover
+ {
+	 background-color:red;
+	 
+    border-radius: 50%;
+    transition: 2s;
+	 
+ }
  .contact-us
  {
 	 width:50%;
-	 height:187px;
+	 
 	 float:left;
 	 
  }
  .connect-me
  {
 	  width:50%;
-	 height:187px;
+	
 	 float:left;
  }
  
