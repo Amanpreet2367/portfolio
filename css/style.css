@@ -121,16 +121,17 @@ margin:auto;
 }
 .about-para
 {
-	width:82%;
+	width:80%;
 	float:right;
+	
 }
  .para
 {
 	color: black;
     
    
-    margin-left: 4%;
-    margin-right: 2%;
+    
+    margin-right: 6%;
     text-align: justify;
     
 
@@ -379,7 +380,7 @@ margin:auto;
 		float: left;
 	}
 
-	.para
+	.about-para
 	{
 	
     font-size: 12px;
