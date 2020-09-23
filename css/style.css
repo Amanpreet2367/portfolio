@@ -12,6 +12,7 @@
    background-color:white;
     border-bottom-left-radius: 9px;
 	border-bottom-right-radius: 9px;
+	
 
 }
 .menu
@@ -19,12 +20,13 @@
 	
     font-size: 20px;
 	padding:10px;
+	
 
 }
 .menu a:hover
 {
-	color:black;
-	background-color:grey;
+	color:white;
+	background-color:black;
 	transition:2s;
 }
 .menu li
@@ -55,7 +57,7 @@ a
 .content
 {
 	
-    
+    height:100%;
 	background-color:#55b9b7;
 	width:100%;
 	text-align:center;
@@ -141,20 +143,20 @@ margin:auto;
     float: left;
     margin-left:2%;
 	margin-top:2%;
-	width:15%;
+	width:258px;
 
 
 }
 .photo img
 {
-	height:18rem;
-	width:100%;
+	height:258px;
+	width:258px;
 	box-shadow: 0px 0px 20px 6px;
 }
 .aboutus
 {
 	
-    width: 80%;
+    width: 75%;
    
     float: right;
    
@@ -168,17 +170,15 @@ margin:auto;
 }
 .about-para
 {
-	width:80%;
+	width:75%;
 	float:right;
 	
 }
  .para
 {
 	color: black;
-    
-   
-    
-    margin-right: 6%;
+    font-size:20px;
+	margin-right: 6%;
     text-align: justify;
     
 
@@ -188,9 +188,10 @@ margin:auto;
  .skill_header
  {
 	 
-	 background-color:#b9b2b2;
+	
 	 height:125px;
 	text-align:center;
+	border-top:1px solid black;
  }
 
 .skill_header ul
@@ -267,7 +268,7 @@ margin:auto;
 	 width:100%;
 	 height:230px;
 	
-	
+	border-top:1px solid black;
 	 background-color:white;
 	 	
 
@@ -297,9 +298,10 @@ margin:auto;
 .education
 {
 	width:100%;
-	background-color:#b9b2b2;
-	height:200px;
 	
+	height:400px;
+	text-align: -webkit-center;
+	border-top:1px solid black;
 }
 .education-title
 {
@@ -307,16 +309,15 @@ margin:auto;
 }
 #title-edu
 {
-	color:white;
+	color:black;
 	font-size: 36px;
 }
 .bacholar
 {
-	width:47%;
+	width:50%;
 	height:150px;
-	margin-left:1.5rem;
-	float:left;
-	border: 1px solid #b1a3a3;
+	margin-top:10px;
+	border: 1px solid #dcd9d9;
 }
 .detail-edu
 {
@@ -326,11 +327,10 @@ margin:auto;
 }
 .master
 {
-	width:47%;
+	width:50%;
 	height:150px;
-	border: 1px solid #b1a3a3;
-	float:left;
-	margin-left:1rem;
+	border: 1px solid #dcd9d9;
+	margin-top:10px;
 }
 
 
@@ -340,9 +340,9 @@ margin:auto;
 	 height:128px;
 	 width:100%;
 	 margin:auto;
-	 background-color:white;
+	 background-color:#55b9b7;
 	 padding:1px 0;
-	 
+	 border-top:1px solid black;
  }
  .footer-content
  {
@@ -373,8 +373,8 @@ margin:auto;
 }
  .footer-content #fb:hover
  {
-	 background-color:blue;
-	 
+	 background-color:black;
+	 color:white;
     border-radius: 50%;
     transition: 2s;
 	 
@@ -382,7 +382,7 @@ margin:auto;
  .footer-content #insta:hover
  {
 	 background-color:orange;
-	 
+	 color:white;
     border-radius: 50%;
     transition: 2s;
 	 
@@ -390,6 +390,7 @@ margin:auto;
  .footer-content #tweet:hover
  {
 	 background-color:#00beff;
+	 color:white;
 	 
     border-radius: 50%;
     transition: 2s;
@@ -398,7 +399,7 @@ margin:auto;
  .footer-content #mail:hover
  {
 	 background-color:red;
-	 
+	 color:white;
     border-radius: 50%;
     transition: 2s;
 	 
