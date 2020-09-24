@@ -48,6 +48,7 @@ a
 	color:white;
 	background-color:black;
 	
+	
 }
 
 .headarea
@@ -144,6 +145,11 @@ button:focus
 	height:258px;
 	width:258px;
 	box-shadow: 0px 0px 20px 6px;
+}
+.photo img:hover
+{
+	transform:rotate(360deg);
+	transition:2s ease;
 }
 .aboutus
 {
