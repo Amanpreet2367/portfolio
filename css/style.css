@@ -382,9 +382,7 @@ width:30%;
 /* education area close */
 
 .footer {
-	height: 128px;
-	width: 100%;
-	margin: auto;
+	
 	background-color: white;
 	padding: 1px 0;
 	border-bottom: 1px solid #dcd9d9;
@@ -393,15 +391,11 @@ width:30%;
 .contact-us {
 	width: 50%;
 
-	float: left;
+	
 
 }
 
-.connect-me {
-	width: 50%;
 
-	float: left;
-}
 
 .footer-content {
 	width: 100%;
@@ -544,8 +538,32 @@ width:30%;
     margin-left: 94px;
 	}
 	
-
-
+	.jal1
+	{
+		width: 80%;
+    text-align: center;
+    
+    margin-left: 94px;
+	}
+	.chd
+	{
+		width: 80%;
+    text-align: center;
+    
+    margin-left: 94px;
+	}
+	
+	.contact-us
+	{
+		width:unset;
+		
+	}
+	.connect-me
+	{
+		float:unset;
+	}
+	
+	
 }
 
 
