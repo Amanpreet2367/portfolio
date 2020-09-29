@@ -41,11 +41,13 @@ a {
 	text-decoration: none;
 	padding: 0 12px;
 
+
 }
 
 .menu a:hover {
 	color: white;
 	background-color: black;
+	transition: 3s;
 
 
 }
@@ -56,21 +58,22 @@ a {
 }
 
 .headerarea {
-
+	width: 41%;
 	position: absolute;
 	top: 19%;
 	left: 30%;
-	width:41%;
+	width: 41%;
 
 
 }
-.headerarea h4
-{
-	 text-align: center; 
-	 font-size: 2rem; 
-	 color: white;
-	 margin: auto;
+
+.headerarea h4 {
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+	margin: auto;
 }
+
 .content h1 {
 	color: black;
 
@@ -144,31 +147,33 @@ button:focus {
 	height: 258px;
 	width: 258px;
 	box-shadow: 0px 0px 20px 6px;
-}
 
-.photo img:hover {
 	transform: rotate(360deg);
 	transition: 2s ease;
 }
 
+.about-title {
+
+	width: 75%;
+	float: right;
+}
+
 
 .aboutus p {
-	color: black;
 	font-size: 36px;
-	margin: 14px 10px;
+
+
 }
 
-
-
-.para {
-	color: black;
-	font-size: 20px;
-	margin-right: 6%;
+.about-para {
 	text-align: justify;
 
+	font-size: 18px;
+	margin-right: 6%;
 
 }
 
+/*about close */
 /*about close */
 
 
@@ -451,42 +456,41 @@ li:hover {
 		width: 100%;
 		box-shadow: 0px 0px 20px 6px;
 	}
-	.headerarea
-	{
-		width:85%;
+
+	.headerarea {
+		width: 85%;
 		left: 8%;
-		
+
 	}
-	.headerarea h4
-	{
+
+	.headerarea h4 {
 		font-size: 4rem;
 	}
-	.btn
-	{
-		    padding: 40px 17px;
-    font-size: 28px;
-    
-    margin-top: 8%;
+
+	.btn {
+		padding: 40px 17px;
+		font-size: 28px;
+
+		margin-top: 8%;
 	}
-	
-	
-	.aboutus p
-	{
+
+
+	.aboutus p {
 		font-size: 64px;
 		margin: 14px 10px;
 	}
-	.about-info
-	{
+
+	.about-info {
 		margin: 0 146px;
-    text-align: center;
+		text-align: center;
 	}
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 }
 
 
@@ -561,17 +565,18 @@ li:hover {
 		position: absolute;
 		top: 19%;
 		left: 30%;
-	width:41%;
+		width: 41%;
 
 
 	}
-.headerarea h4
-{
-	 text-align: center; 
-	 font-size: 2rem; 
-	 color: white;
-	 margin: auto;
-}
+
+	.headerarea h4 {
+		text-align: center;
+		font-size: 2rem;
+		color: white;
+		margin: auto;
+	}
+
 	.content h1 {
 		color: black;
 
@@ -912,7 +917,71 @@ li:hover {
 	.about-info {
 		width: 75%;
 		float: left;
-		margin:unset;
-		text-align:unset;
+		margin: unset;
+		text-align: unset;
 	}
 }
+
+
+
+.footer-content #fb:hover {
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	transition: 2s;
+
+}
+
+.footer-content #insta:hover {
+	background-color: orange;
+	color: white;
+	border-radius: 50%;
+	transition: 2s;
+
+}
+
+.footer-content #tweet:hover {
+	background-color: #00beff;
+	color: white;
+
+	border-radius: 50%;
+	transition: 2s;
+
+}
+
+.footer-content #mail:hover {
+	background-color: red;
+	color: white;
+	border-radius: 50%;
+	transition: 2s;
+
+}
+
+/* footer area close */
+
+
+
+
+
+/*@media only screen and (min-width: 320px)
+{
+	
+	.headerarea
+	{
+	position: absolute;
+    top: 19%;
+    left: 8%;
+	width:unset;
+	}
+	.headerarea h4
+	{
+		font-size: 4rem;
+		font-size:unset;
+	}
+	.btn
+	{
+
+    font-size: 26px;
+    padding: 43px 30px;
+	}
+}*/
