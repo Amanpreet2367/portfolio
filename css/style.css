@@ -532,20 +532,18 @@ width:30%;
 	}
 
 
-	.aboutus p {
-		font-size: 64px;
-		margin: 14px 10px;
+	
+
+	
+	
+	.jal
+	{
+		width: 80%;
+    text-align: center;
+    
+    margin-left: 94px;
 	}
-
-	.about-info {
-		margin: 0 146px;
-		text-align: center;
-	}
-
-
-
-
-
+	
 
 
 }
@@ -973,7 +971,7 @@ width:30%;
 		margin: unset;
 		text-align: unset;
 	}
-}
+
 
 
 
@@ -1012,29 +1010,4 @@ width:30%;
 
 /* footer area close */
 
-
-
-
-
-/*@media only screen and (min-width: 320px)
-{
-	
-	.headerarea
-	{
-	position: absolute;
-    top: 19%;
-    left: 8%;
-	width:unset;
-	}
-	.headerarea h4
-	{
-		font-size: 4rem;
-		font-size:unset;
-	}
-	.btn
-	{
-
-    font-size: 26px;
-    padding: 43px 30px;
-	}
-}*/
+}
