@@ -23,7 +23,11 @@
 
 
 }
-
+li:hover
+{
+	transform:scale(1,2);
+	transition:1s;
+}
 .menu {
 
 	font-size: 20px;
@@ -148,16 +152,19 @@ button:focus {
 	width: 258px;
 	box-shadow: 0px 0px 20px 6px;
 
-	transform: rotate(360deg);
+	
 	transition: 2s ease;
 }
 
 .about-title {
 
 	width: 75%;
-	float: right;
+	float: left;
 }
-
+.aboutus
+{
+	text-align: left;
+}
 
 .aboutus p {
 	font-size: 36px;
@@ -187,34 +194,93 @@ button:focus {
 	border-bottom: 1px solid #dcd9d9;
 
 }
+.dates
+{
+	width:40%;
+	float:left;
+	margin-top:10px;
+}
+
+
+
 
 #title-mid {
 	color: black;
 	font-size: 36px;
 }
-
-.date-month {
-	width: 26%;
-	float: left;
-
-	height: 247px;
-	margin-left: 12%;
-	margin-top: 15px;
-	text-align: center;
+.babashoes-account
+{
+	width:100%;
+	margin-top:12px;
+	    height: 156px;
 }
-
-.experience-intro {
-	width: 50%;
-
-	float: left;
-
-	margin-top: 15px;
-	margin-left: 20px;
+.nov17
+{
+	width:30%;
+	float:left;
+	margin-left: 5%;
 }
-
 .jal {
 	border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
+	
 }
+.babashoesdesign
+{
+	width:100%;
+	margin-top:12px;
+	height: 120px;
+}
+.nov
+{
+	width:30%;
+	float:left;
+	margin-left: 5%;
+}
+.jal1
+{
+	border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
+}
+
+.calvin
+{
+	width:100%;
+	margin-top:12px;
+}
+.april
+{
+width:30%;
+	float:left;
+	margin-left: 5%;
+}
+
+.chd
+{
+	border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .paira {
 	height: 33px;
@@ -223,15 +289,6 @@ button:focus {
 
 }
 
-.jal1 {
-	margin-top: 15px;
-	border: 1px solid #bdbaba;
-}
-
-.chd {
-	margin-top: 15px;
-	border: 1px solid #bdbaba;
-}
 
 /* middle area close */
 
@@ -406,19 +463,13 @@ button:focus {
 
 }
 
-.about-info {
-	float: left;
-	width: 75%;
-}
+
 
 .clear-fix {
 	clear: both;
 }
 
-li:hover {
-	transform: rotate(360deg);
-	transition: 2s ease;
-}
+
 
 /* footer area close */
 
@@ -456,7 +507,13 @@ li:hover {
 		width: 100%;
 		box-shadow: 0px 0px 20px 6px;
 	}
-
+	.photo img:hover
+	{
+		transform: scaleX(-1);
+		transition: 2s ease;
+		opacity:0.5;
+		filter: saturate(7);
+	}
 	.headerarea {
 		width: 85%;
 		left: 8%;
@@ -656,17 +713,13 @@ li:hover {
 	}
 
 	.photo img:hover {
-		transform: rotate(360deg);
+		transform: scaleX(-1);
 		transition: 2s ease;
+		opacity:0.5;
+		filter: saturate(7);
 	}
 
-	.aboutus {
-		/* 
-		width: 75%;
-
-		float: right; */
-
-	}
+	
 
 	.aboutus p {
 		color: black;
@@ -674,16 +727,13 @@ li:hover {
 		margin: 14px 10px;
 	}
 
-	.about-para {
-		/* width: 75%;
-		float: right; */
-
-	}
+	
 
 	.para {
 		color: black;
 		font-size: 20px;
-		margin-right: 6%;
+		
+		
 		text-align: justify;
 
 
@@ -708,7 +758,7 @@ li:hover {
 		font-size: 36px;
 	}
 
-	.date-month {
+	/*.date-month {
 		width: 26%;
 		float: left;
 
@@ -716,19 +766,16 @@ li:hover {
 		margin-left: 12%;
 		margin-top: 15px;
 		text-align: center;
-	}
+	}*/
 
-	.experience-intro {
-		width: 50%;
-
-		float: left;
-
-		margin-top: 15px;
-		margin-left: 20px;
-	}
+	
 
 	.jal {
 		border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
 	}
 
 	.paira {
@@ -739,13 +786,19 @@ li:hover {
 	}
 
 	.jal1 {
-		margin-top: 15px;
 		border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
 	}
 
 	.chd {
-		margin-top: 15px;
 		border: 1px solid #bdbaba;
+	text-align:left;
+	float:left;
+	width:50%;
+	margin-left: 5%;
 	}
 
 	/* middle area close */
