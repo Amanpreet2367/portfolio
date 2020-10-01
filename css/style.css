@@ -212,7 +212,7 @@ button:focus {
 {
 	width:100%;
 	margin-top:12px;
-	    height: 156px;
+	    
 }
 .nov17
 {
@@ -234,6 +234,11 @@ button:focus {
 	margin-left: 26px;
 	
 }
+.paragraph
+{
+	text-align: justify; 
+	padding: 0px 27px;
+}
 .assacc
 {
 	font-size: 19px;
@@ -251,7 +256,7 @@ button:focus {
 {
 	width:100%;
 	margin-top:12px;
-	height: 120px;
+	
 }
 .nov
 {
@@ -324,12 +329,6 @@ width:30%;
 	margin-left: 27px;
 }
 
-.paira {
-	height: 33px;
-
-	width: 100%;
-
-}
 
 
 /* middle area close */
@@ -436,10 +435,22 @@ width:30%;
 	
 
 }
+.contactttt
+{
+	FONT-SIZE: 29PX; 
+	PADDING: 0 5REM;
+	LETTER-SPACING: 2px; 
+}
 .connect-me
 {
 	width: 50%;
 	float:left;
+}
+.joinnnn
+{
+	FONT-SIZE: 29PX; 
+	PADDING: 0 8REM;
+	LETTER-SPACING: 2px;
 }
 
 
@@ -552,7 +563,7 @@ width:30%;
 	{
 		transform: scaleX(-1);
 		transition: 2s ease;
-		opacity:0.5;
+		
 		filter: saturate(7);
 	}
 	.headerarea {
@@ -599,13 +610,7 @@ width:30%;
     margin-left: 94px;
 	}
 	
-	.jal1
-	{
-		width: 80%;
-    text-align: center;
-    
-    margin-left: 94px;
-	}
+	
 	.chd
 	{
 		width: 80%;
@@ -617,15 +622,102 @@ width:30%;
 	font-size: 35px;
     width: 100%;
 	}
+	.contactttt
+	{
+		font-size: 59px;
+	}
 	.connect-me
 	{
 		width: 100%;
 	}
+	.joinnnn
+	{
+		font-size:59px;
+	}
 	#title_skill
 	{
-		font-size:40px;
+		font-size:59px;
 	}
 	
+	.nov17
+	{
+		    width: 100%;
+    
+    margin: unset;
+	}
+	.nov18
+	{
+		font-size: 15px;
+	}
+	.nov19
+	{
+		font-size:15px;
+	}
+	.jal
+	{
+		width: 100%;
+    text-align: center;
+    
+    margin: unset;
+	}
+	.jal1
+	{
+		width: 100%;
+    text-align: center;
+    margin: unset;
+	}
+	.nov
+	{
+		    width: 100%;
+    margin: unset;
+	}
+	.april
+	{
+		    width: 100%;
+    margin: unset;
+	}
+	.apr19
+	{
+		font-size:15px;
+	}
+	.chd
+	{
+		width: 100%;
+    text-align: center;
+    margin: unset;
+	}
+	.paragraph
+	{
+		padding: 0 58px;
+	}
+	.middle
+	{
+		height:100%;
+	}
+	#title-mid
+	{
+		font-size: 59px;
+	}
+	.skill_header
+	{
+		    height: 247px;
+	}
+	.skill_header li
+	{
+		
+	
+    font-size: 2.2em;
+	}
+	.skill_header ul {
+    
+    padding: 0;
+	}
+#title-edu {
+   font-size:59px;
+}
+
+
+
 }
 
 
@@ -878,6 +970,11 @@ button:focus {
 	margin-left: 26px;
 	
 }
+.paragraph
+{
+	text-align: justify; 
+	padding: 0px 27px;
+}
 .assacc
 {
 	font-size: 19px;
@@ -968,12 +1065,7 @@ width:30%;
 	margin-left: 27px;
 }
 
-.paira {
-	height: 33px;
 
-	width: 100%;
-
-}
 
 
 /* middle area close */
@@ -998,7 +1090,7 @@ width:30%;
 }
 
 .skill_header li {
-	display: inline-block;
+	
 	margin: 7px;
 	padding: 5px 10px;
 
@@ -1081,12 +1173,23 @@ width:30%;
 	
 
 }
+.contactttt
+{
+	FONT-SIZE: 29PX; 
+	PADDING: 0 5REM;
+	LETTER-SPACING: 2px; 
+}
 .connect-me
 {
 	width: 50%;
 	float:left;
 }
-
+.joinnnn
+{
+	FONT-SIZE: 29PX; 
+	PADDING: 0 8REM;
+	LETTER-SPACING: 2px;
+}
 
 
 .footer-content {
