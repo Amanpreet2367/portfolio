@@ -572,10 +572,24 @@ width:30%;
 		margin-top: 8%;
 	}
 
-
-	
-
-	
+	.about-title
+	{
+		width: 100%;
+	}
+	.aboutus p
+	{
+		font-size: 55px;
+    text-align: center;
+	}
+	.about-para
+	{
+		margin-right:unset;
+	}
+	.para
+	{
+		padding: 49px;
+    
+	}
 	
 	.jal
 	{
@@ -599,14 +613,18 @@ width:30%;
     
     margin-left: 94px;
 	}
-	
-	.contact-us
-	{
-		width:unset;
-		
+	.contact-us{
+	font-size: 35px;
+    width: 100%;
 	}
-	
-	
+	.connect-me
+	{
+		width: 100%;
+	}
+	#title_skill
+	{
+		font-size:40px;
+	}
 	
 }
 
@@ -790,15 +808,19 @@ button:focus {
 
 .aboutus p {
 	font-size: 36px;
+	text-align:left;
 
 
 }
-
+.para
+{
+	padding:unset;
+}
 .about-para {
 	text-align: justify;
 
 	font-size: 18px;
-	margin-right: 6%;
+	
 
 }
 
@@ -1053,8 +1075,9 @@ width:30%;
 }
 
 .contact-us {
-	width: 50%;
-	float:left;
+	float: left;
+    font-size: unset;
+    width: 50%;
 	
 
 }
