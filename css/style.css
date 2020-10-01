@@ -385,7 +385,7 @@ width:30%;
 .education {
 	width: 100%;
 
-	height: 400px;
+	height: 225px;
 	text-align: -webkit-center;
 	background-color: #f2f2f5;
 	border-bottom: 1px solid #dcd9d9;
@@ -401,10 +401,12 @@ width:30%;
 }
 
 .master {
-	width: 50%;
-	height: 150px;
-	border: 1px solid #bfb8b8;
-	margin-top: 10px;
+	width: 48%;
+    height: 150px;
+    border: 1px solid #bfb8b8;
+   
+    float: left;
+    margin-left: 20px;
 }
 
 .detail-edu {
@@ -412,12 +414,41 @@ width:30%;
 	height: 39px;
 
 }
+.ikgp
+{
+	font-size: 22px; 
+	float: left;
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.nov14
+{
+	float: right; 
+	padding: 12px; 
+	font-size: 17px;
+}
+.masterrr
+{
+	float: left;
+	font-size: 18px; 
+	margin-left: 27px; 
+	color:black;
+	
+	
+	
+}
+
+
+
+
 
 .bacholar {
-	width: 50%;
-	height: 150px;
-	margin-top: 10px;
-	border: 1px solid #bfb8b8;
+	    width: 48%;
+    height: 150px;
+   
+    border: 1px solid #bfb8b8;
+    float: left;
+    margin-left: 20px;
 }
 
 /* education area close */
@@ -715,6 +746,39 @@ width:30%;
 #title-edu {
    font-size:59px;
 }
+	.education
+	{
+		height: 421px;
+	}
+	.master
+	{
+		width: 50%;
+    float: unset;
+	}
+	.bacholar
+	{
+		width: 90%;
+    float: unset;
+	
+	}
+	.master {
+    width: 90%;
+    float: unset;
+	}
+	.ikgp
+	{
+		font-size: 43px;
+	}
+	.nov14
+	{
+		font-size: 34px;
+	}
+	.masterrr
+	{
+		font-size: 32px;
+	}
+
+
 
 
 
@@ -1122,7 +1186,7 @@ width:30%;
 .education {
 	width: 100%;
 
-	height: 400px;
+	height: 225px;
 	text-align: -webkit-center;
 	background-color: #f2f2f5;
 	border-bottom: 1px solid #dcd9d9;
@@ -1138,10 +1202,12 @@ width:30%;
 }
 
 .master {
-	width: 50%;
-	height: 150px;
-	border: 1px solid #bfb8b8;
-	margin-top: 10px;
+	width: 48%;
+    height: 150px;
+    border: 1px solid #bfb8b8;
+    
+    float: left;
+    margin-left: 20px;
 }
 
 .detail-edu {
@@ -1149,12 +1215,38 @@ width:30%;
 	height: 39px;
 
 }
+.ikgp
+{
+	font-size: 22px; 
+	float: left;
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.nov14
+{
+	float: right; 
+	padding: 12px; 
+	font-size: 17px;
+}
+.masterrr
+{
+	float: left;
+	font-size: 18px; 
+	margin-left: 27px; 
+	color:black;
+	
+	
+	
+}
+
 
 .bacholar {
-	width: 50%;
-	height: 150px;
-	margin-top: 10px;
-	border: 1px solid #bfb8b8;
+	    width: 48%;
+    height: 150px;
+   
+    border: 1px solid #bfb8b8;
+    float: left;
+    margin-left: 20px;
 }
 
 /* education area close */
