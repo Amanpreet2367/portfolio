@@ -58,7 +58,7 @@ a {
 
 .headarea {
 	position: relative;
-	min-height: 559px;
+	height: 100%;
 }
 
 .headerarea {
@@ -220,6 +220,25 @@ button:focus {
 	float:left;
 	margin-left: 5%;
 }
+.nov18
+{
+	
+	color:black; 
+	font-size:19px;
+}
+.babashoep
+{
+	
+	font-size: 26px; 
+	margin-top: 6px;
+	margin-left: 26px;
+	
+}
+.assacc
+{
+	font-size: 19px;
+	margin-left: 27px;
+}
 .jal {
 	border: 1px solid #bdbaba;
 	text-align:left;
@@ -240,6 +259,24 @@ button:focus {
 	float:left;
 	margin-left: 5%;
 }
+.nov19
+{
+	color:black; 
+	font-size:19px;
+}
+.babashoee
+{
+	
+	font-size: 26px; 
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.graphic
+{
+	font-size: 19px; 
+	margin-left: 27px;
+}
+
 .jal1
 {
 	border: 1px solid #bdbaba;
@@ -260,6 +297,11 @@ width:30%;
 	float:left;
 	margin-left: 5%;
 }
+.apr19
+{
+	color:black; 
+	font-size:19px;
+}
 
 .chd
 {
@@ -270,17 +312,17 @@ width:30%;
 	margin-left: 5%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.calvinchd
+{
+	font-size: 26px;
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.assaccchd
+{
+	font-size: 19px; 
+	margin-left: 27px;
+}
 
 .paira {
 	height: 33px;
@@ -390,9 +432,14 @@ width:30%;
 
 .contact-us {
 	width: 50%;
-
+	float:left;
 	
 
+}
+.connect-me
+{
+	width: 50%;
+	float:left;
 }
 
 
@@ -558,10 +605,7 @@ width:30%;
 		width:unset;
 		
 	}
-	.connect-me
-	{
-		float:unset;
-	}
+	
 	
 	
 }
@@ -577,421 +621,477 @@ width:30%;
 
 @media only screen and (min-width: 1020px) {
 	.main {
-		width: 100%;
-		height: auto;
-		margin: auto;
-	}
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
 
-	.content {
+.content {
 
-		height: 100%;
-		background-color: #55b9b7;
-		width: 100%;
-		text-align: center;
+	height: 100%;
+	background-color: #55b9b7;
+	width: 100%;
+	text-align: center;
 
-	}
+}
 
-	.navbar {
+.navbar {
 
-		text-align: center;
-		display: inline-block;
-		background-color: white;
-		border-bottom-left-radius: 9px;
-		border-bottom-right-radius: 9px;
-
-
-	}
-
-	.menu {
-
-		font-size: 20px;
-		padding: 10px;
-
-	}
-
-	.menu li {
-		display: inline-block;
+	text-align: center;
+	display: inline-block;
+	background-color: white;
+	border-bottom-left-radius: 9px;
+	border-bottom-right-radius: 9px;
 
 
-	}
+}
+li:hover
+{
+	transform:scale(1,2);
+	transition:1s;
+}
+.menu {
 
-	a {
-		text-decoration: none;
-		padding: 0 12px;
+	font-size: 20px;
+	padding: 10px;
 
-	}
+}
 
-	.menu a:hover {
-		color: white;
-		background-color: black;
-
-
-	}
-
-	.headarea {
-		position: relative;
-		min-height: 559px;
-	}
-
-	.headerarea {
-
-		position: absolute;
-		top: 19%;
-		left: 30%;
-		width: 41%;
+.menu li {
+	display: inline-block;
 
 
-	}
+}
 
-	.headerarea h4 {
-		text-align: center;
-		font-size: 2rem;
-		color: white;
-		margin: auto;
-	}
-
-	.content h1 {
-		color: black;
-
-		font-size: 5em;
-
-		letter-spacing: 0.05em;
-		line-height: 0.9em;
-		margin: 0rem;
+a {
+	text-decoration: none;
+	padding: 0 12px;
 
 
-		padding: 1rem 0;
-	}
+}
+
+.menu a:hover {
+	color: white;
+	background-color: black;
+	transition: 3s;
 
 
+}
 
-	.BTN {
-		BACKGROUND-COLOR: #dad2d2;
-		COLOR: black;
+.headarea {
+	position: relative;
+	height: 100%;
+}
 
-		border-radius: 32px;
-		font-size: 15px;
-		padding: 22px 14px;
-		letter-spacing: 1px;
-		text-align: center;
-
-		font-style: italic;
-
-		margin-top: 2rem;
-		margin-left: unset !important;
-
-	}
-
-	.content button:hover {
-		color: white;
-		background-color: black;
-		transition: 3s;
-	}
-
-	button:focus {
-		outline: none;
-	}
+.headerarea {
+	width: 41%;
+	position: absolute;
+	top: 19%;
+	left: 30%;
+	width: 41%;
 
 
-	/* content close*/
+}
 
-	.about {
-		width: 100%;
-		height: 339px;
-		background-color: white;
-		margin: auto;
-		border-bottom: 1px solid #dcd9d9;
+.headerarea h4 {
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+	margin: auto;
+}
 
-	}
+.content h1 {
+	color: black;
 
-	.about_us {
-		width: 100%;
+	font-size: 5em;
+
+	letter-spacing: 0.05em;
+	line-height: 0.9em;
+	margin: 0rem;
+
+
+	padding: 1rem 0;
+}
 
 
 
-	}
+.BTN {
+	BACKGROUND-COLOR: #dad2d2;
+	COLOR: black;
 
-	.photo {
+	border-radius: 32px;
+	font-size: 15px;
+	padding: 22px 14px;
+	letter-spacing: 1px;
+	text-align: center;
 
-		float: left;
-		margin-left: 2%;
-		margin-top: 2%;
-		width: 22%;
-		margin-right: unset;
+	font-style: italic;
+
+	margin-top: 2rem;
+	margin-left: unset !important;
+
+}
+
+.content button:hover {
+	color: white;
+	background-color: black;
+	transition: 3s;
+}
+
+button:focus {
+	outline: none;
+}
 
 
-	}
+/* content close*/
 
-	.photo img {
-		height: 258px;
-		width: 258px;
-		box-shadow: 0px 0px 20px 6px;
-	}
+.about {
+	width: 100%;
+	height: 339px;
+	background-color: white;
+	margin: auto;
+	border-bottom: 1px solid #dcd9d9;
 
-	.photo img:hover {
-		transform: scaleX(-1);
-		transition: 2s ease;
-		opacity:0.5;
-		filter: saturate(7);
-	}
+}
+
+.about_us {
+	width: 100%;
+}
+
+.photo {
+
+	float: left;
+	margin-left: 2%;
+	margin-top: 2%;
+	width: 22%;
+	margin-right: unset;
+
+
+}
+
+.photo img {
+	height: 258px;
+	width: 258px;
+	box-shadow: 0px 0px 20px 6px;
 
 	
+	transition: 2s ease;
+}
 
-	.aboutus p {
-		color: black;
-		font-size: 36px;
-		margin: 14px 10px;
-	}
+.about-title {
 
+	width: 75%;
+	float: left;
+}
+.aboutus
+{
+	text-align: left;
+}
+
+.aboutus p {
+	font-size: 36px;
+
+
+}
+
+.about-para {
+	text-align: justify;
+
+	font-size: 18px;
+	margin-right: 6%;
+
+}
+
+/*about close */
+/*about close */
+
+
+
+.middle {
+	width: 100%;
+	height: 500px;
+
+
+	background-color: #f2f2f5;
+	border-bottom: 1px solid #dcd9d9;
+
+}
+.dates
+{
+	width:40%;
+	float:left;
+	margin-top:10px;
+}
+
+
+
+
+#title-mid {
+	color: black;
+	font-size: 36px;
+}
+.babashoes-account
+{
+	width:100%;
+	margin-top:12px;
+	    height: 156px;
+}
+.nov17
+{
+	width:30%;
+	float:left;
+	margin-left: 5%;
+}
+.nov18
+{
 	
-
-	.para {
-		color: black;
-		font-size: 20px;
-		
-		
-		text-align: justify;
-
-
-	}
-
-	/*about close */
-
-
-
-	.middle {
-		width: 100%;
-		height: 500px;
-
-
-		background-color: #f2f2f5;
-		border-bottom: 1px solid #dcd9d9;
-
-	}
-
-	#title-mid {
-		color: black;
-		font-size: 36px;
-	}
-
-	/*.date-month {
-		width: 26%;
-		float: left;
-
-		height: 247px;
-		margin-left: 12%;
-		margin-top: 15px;
-		text-align: center;
-	}*/
-
+	color:black; 
+	font-size:19px;
+}
+.babashoep
+{
 	
-
-	.jal {
-		border: 1px solid #bdbaba;
+	font-size: 26px; 
+	margin-top: 6px;
+	margin-left: 26px;
+	
+}
+.assacc
+{
+	font-size: 19px;
+	margin-left: 27px;
+}
+.jal {
+	border: 1px solid #bdbaba;
 	text-align:left;
 	float:left;
 	width:50%;
 	margin-left: 5%;
-	}
+	
+}
+.babashoesdesign
+{
+	width:100%;
+	margin-top:12px;
+	height: 120px;
+}
+.nov
+{
+	width:30%;
+	float:left;
+	margin-left: 5%;
+}
+.nov19
+{
+	color:black; 
+	font-size:19px;
+}
+.babashoee
+{
+	
+	font-size: 26px; 
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.graphic
+{
+	font-size: 19px; 
+	margin-left: 27px;
+}
 
-	.paira {
-		height: 33px;
-
-		width: 100%;
-
-	}
-
-	.jal1 {
-		border: 1px solid #bdbaba;
+.jal1
+{
+	border: 1px solid #bdbaba;
 	text-align:left;
 	float:left;
 	width:50%;
 	margin-left: 5%;
-	}
+}
 
-	.chd {
-		border: 1px solid #bdbaba;
+.calvin
+{
+	width:100%;
+	margin-top:12px;
+}
+.april
+{
+width:30%;
+	float:left;
+	margin-left: 5%;
+}
+.apr19
+{
+	color:black; 
+	font-size:19px;
+}
+
+.chd
+{
+	border: 1px solid #bdbaba;
 	text-align:left;
 	float:left;
 	width:50%;
 	margin-left: 5%;
-	}
+}
 
-	/* middle area close */
+.calvinchd
+{
+	font-size: 26px;
+	margin-top: 6px;
+	margin-left: 26px;
+}
+.assaccchd
+{
+	font-size: 19px; 
+	margin-left: 27px;
+}
+
+.paira {
+	height: 33px;
+
+	width: 100%;
+
+}
 
 
-
-	.skill_header {
-
-
-		height: 125px;
-		text-align: center;
-		background-color: white;
-		border-bottom: 1px solid #dcd9d9;
-	}
-
-	.skill_header ul {
-		display: block;
-
-		padding: 0;
-
-
-	}
-
-	.skill_header li {
-		display: inline-block;
-		margin: 7px;
-		padding: 5px 10px;
-
-		background: #e4e4ea;
-
-		font-size: 1.2em;
-
-	}
-
-	.skill-title {
-		text-align: center;
-	}
-
-	#title_skill {
-
-		color: black;
-		font-size: 36px;
-	}
-
-	/* skill area close */
-
-	.education {
-		width: 100%;
-
-		height: 400px;
-		text-align: -webkit-center;
-		background-color: #f2f2f5;
-		border-bottom: 1px solid #dcd9d9;
-	}
-
-	.education-title {
-		text-align: center;
-	}
-
-	#title-edu {
-		color: black;
-		font-size: 36px;
-	}
-
-	.master {
-		width: 50%;
-		height: 150px;
-		border: 1px solid #bfb8b8;
-		margin-top: 10px;
-	}
-
-	.detail-edu {
-		width: 100%;
-		height: 39px;
-
-	}
-
-	.bacholar {
-		width: 50%;
-		height: 150px;
-		margin-top: 10px;
-		border: 1px solid #bfb8b8;
-	}
-
-	/* education area close */
-
-	.footer {
-		height: 128px;
-		width: 100%;
-		margin: auto;
-		background-color: white;
-		padding: 1px 0;
-		border-bottom: 1px solid #dcd9d9;
-	}
-
-	.contact-us {
-		width: 50%;
-
-		float: left;
-
-	}
-
-	.connect-me {
-		width: 50%;
-
-		float: left;
-	}
-
-	.footer-content {
-		width: 100%;
-		height: 80px;
-
-	}
-
-	.icons {
-		width: 80%;
-		height: 42px;
-
-		margin-left: 10%;
-		float: left;
-		margin-top: 4%;
-
-	}
-
-	.facebook-icon {
-
-		height: 30px;
-		width: 30px;
-
-		border-radius: 50%;
-		float: left;
-		margin-left: 16%;
-		margin-top: 7px;
-	}
-
-	.footer-content #fb:hover {
-		background-color: black;
-		color: white;
-		border-radius: 50%;
-		transition: 2s;
-
-	}
-
-	.footer-content #insta:hover {
-		background-color: orange;
-		color: white;
-		border-radius: 50%;
-		transition: 2s;
-
-	}
-
-	.footer-content #tweet:hover {
-		background-color: #00beff;
-		color: white;
-
-		border-radius: 50%;
-		transition: 2s;
-
-	}
-
-	.footer-content #mail:hover {
-		background-color: red;
-		color: white;
-		border-radius: 50%;
-		transition: 2s;
-
-	}
-
-	.about-info {
-		width: 75%;
-		float: left;
-		margin: unset;
-		text-align: unset;
-	}
+/* middle area close */
 
 
 
+.skill_header {
+
+
+	height: 125px;
+	text-align: center;
+	background-color: white;
+	border-bottom: 1px solid #dcd9d9;
+}
+
+.skill_header ul {
+	display: block;
+
+	padding: 0;
+
+
+}
+
+.skill_header li {
+	display: inline-block;
+	margin: 7px;
+	padding: 5px 10px;
+
+	background: #e4e4ea;
+
+	font-size: 1.2em;
+
+}
+
+.skill-title {
+	text-align: center;
+}
+
+#title_skill {
+
+	color: black;
+	font-size: 36px;
+}
+
+/* skill area close */
+
+
+
+
+
+
+
+
+.education {
+	width: 100%;
+
+	height: 400px;
+	text-align: -webkit-center;
+	background-color: #f2f2f5;
+	border-bottom: 1px solid #dcd9d9;
+}
+
+.education-title {
+	text-align: center;
+}
+
+#title-edu {
+	color: black;
+	font-size: 36px;
+}
+
+.master {
+	width: 50%;
+	height: 150px;
+	border: 1px solid #bfb8b8;
+	margin-top: 10px;
+}
+
+.detail-edu {
+	width: 100%;
+	height: 39px;
+
+}
+
+.bacholar {
+	width: 50%;
+	height: 150px;
+	margin-top: 10px;
+	border: 1px solid #bfb8b8;
+}
+
+/* education area close */
+
+.footer {
+	
+	background-color: white;
+	padding: 1px 0;
+	border-bottom: 1px solid #dcd9d9;
+}
+
+.contact-us {
+	width: 50%;
+	float:left;
+	
+
+}
+.connect-me
+{
+	width: 50%;
+	float:left;
+}
+
+
+
+.footer-content {
+	width: 100%;
+	height: 80px;
+
+}
+
+.icons {
+	width: 80%;
+	height: 42px;
+
+	margin-left: 10%;
+	float: left;
+	margin-top: 4%;
+
+}
+
+.facebook-icon {
+
+	height: 30px;
+	width: 30px;
+
+	border-radius: 50%;
+	float: left;
+	margin-left: 16%;
+	margin-top: 7px;
+}
 
 .footer-content #fb:hover {
 	background-color: black;
@@ -1025,6 +1125,14 @@ width:30%;
 	transition: 2s;
 
 }
+
+
+
+.clear-fix {
+	clear: both;
+}
+
+
 
 /* footer area close */
 
