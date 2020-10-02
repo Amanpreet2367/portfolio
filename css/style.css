@@ -279,14 +279,7 @@ button:focus {
 	margin-left: 27px;
 }
 
-.jal1
-{
-	border: 1px solid #bdbaba;
-	text-align:left;
-	float:left;
-	width:50%;
-	margin-left: 5%;
-}
+
 
 .calvin
 {
@@ -305,14 +298,7 @@ width:30%;
 	font-size:19px;
 }
 
-.chd
-{
-	border: 1px solid #bdbaba;
-	text-align:left;
-	float:left;
-	width:50%;
-	margin-left: 5%;
-}
+
 
 .calvinchd
 {
@@ -339,6 +325,7 @@ width:30%;
 	text-align: center;
 	background-color: white;
 	border-bottom: 1px solid #dcd9d9;
+	
 }
 
 .skill_header ul {
@@ -601,6 +588,9 @@ width:30%;
 
 
 @media only screen and (min-width: 320px) {
+	.content {
+		height: 50%;
+	}
 	.photo {
 		margin: 2% 19%;
 		
@@ -618,11 +608,11 @@ width:30%;
 		transform: scaleX(-1);
 		transition: 2s ease;
 		
-		filter: saturate(7);
+		
 	}
 	.headarea {
     position: relative;
-    height: 100%;
+    height: 90%;
 	}
 	
 	.headerarea {
@@ -630,6 +620,7 @@ width:30%;
 		left: 9%;
 
 	}
+	
 	.content h1 {
 	letter-spacing:unset;
 	}
@@ -643,7 +634,20 @@ width:30%;
 
 		margin-top: 8%;
 	}
-
+	.cont {
+    padding: 3rem 0;
+    float: left;
+   
+    border-bottom: 3px solid #ccc;
+    margin: 1rem 0;
+}
+.about {
+height:unset;
+}
+.about_us {
+    
+float: left;
+}
 	.about-title
 	{
 		width: 100%;
@@ -669,24 +673,11 @@ width:30%;
     
 	}
 	
-	.jal
-	{
-		width: 80%;
-    text-align: center;
-    
-    margin-left: 94px;
-	}
 	
 	
-	.chd
-	{
-		width: 80%;
-    text-align: center;
-    
-    margin-left: 94px;
-	}
+	
 	.contact-us{
-	font-size: 22px;
+	font-size: 25px;
     width: 100%;
 	}
 	.contactttt
@@ -712,13 +703,11 @@ width:30%;
     
     margin: unset;
 	}
-	.nov18
+	.nov18,
+	.nov19,.apr19
+	
 	{
-		font-size: 12px;
-	}
-	.nov19
-	{
-		font-size:12px;
+		font-size:26px;
 	}
 	.babashoep
 	{
@@ -736,17 +725,15 @@ width:30%;
 	}
 	.jal
 	{
-		width: 100%;
+		width: 90%;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
     
-    margin: unset;
+   
 	}
-	.jal1
-	{
-		width: 100%;
-    text-align: center;
-    margin: unset;
-	}
+	
 	.babashoee{
 	font-size: 16px;
     
@@ -762,10 +749,8 @@ width:30%;
 		    width: 100%;
     margin: unset;
 	}
-	.apr19
-	{
-		font-size:12px;
-	}
+	
+	
 	.calvinchd {
     font-size: 16px;
 	}
@@ -775,12 +760,7 @@ width:30%;
 	margin:unset;
 	
 	}
-	.chd
-	{
-		width: 100%;
-    text-align: center;
-    margin: unset;
-	}
+	
 	.paragraph
 	{
 	
@@ -790,7 +770,7 @@ width:30%;
 	
 	.middle
 	{
-		height:80%;
+		height:auto;
 	}
 	#title-mid
 	{
@@ -802,6 +782,8 @@ width:30%;
 	.skill_header
 	{
 		    height: 247px;
+			border-bottom:unset;
+			
 	}
 	.skill_header li
 	{
@@ -819,19 +801,25 @@ width:30%;
 	.education
 	{
 		height: 421px;
+		    border-top: 3px solid #ccc;
+			padding-bottom: 6rem;
 	}
-	
-	.bacholar
+	.detail-edu
 	{
-		width: 75%;
-    float: unset;
-	margin-top:14px;
-	
+		height:unset;
+		float:left;
 	}
-	.master {
-    width: 75%;
-    float: unset;
-	margin-top:20px;
+	
+	.courses{
+    width: 89%;
+    margin-top: 20px;
+   
+    
+    border: 1px solid #ccc;
+    margin: 2rem 0;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+
 	}
 	.ikgp
 	{
@@ -848,20 +836,20 @@ width:30%;
 	#fb
 	{
 		    padding: 6px 9px;
-    font-size: 40px;
+    font-size: 60px;
 	}
 	#tweet
 {
-	padding: 6px 7px; font-size: 40px;
+	padding: 6px 7px; font-size: 60px;
 	
 }
 #insta
 {
-	padding: 6px 7px; font-size: 40px;
+	padding: 6px 7px; font-size: 60px;
 }
 #mail
 {
-	padding: 6px 6px; font-size: 40px;
+	padding: 6px 6px; font-size: 60px;
 }
 
 
@@ -1067,7 +1055,8 @@ button:focus {
 
 .middle {
 	width: 100%;
-	height: 500px;
+	    padding: 2rem 0px;
+    margin: 0rem 0px;
 
 
 	background-color: #f2f2f5;
@@ -1099,6 +1088,7 @@ button:focus {
 	width:30%;
 	float:left;
 	margin-left: 5%;
+	padding-top: 5%;
 }
 .nov18
 {
@@ -1130,8 +1120,10 @@ button:focus {
 	text-align:left;
 	float:left;
 	width:50%;
-	margin-left: 5%;
 	
+	    margin-top: unset;
+    padding: 1rem 0;
+
 }
 .babashoesdesign
 {
@@ -1144,6 +1136,7 @@ button:focus {
 	width:30%;
 	float:left;
 	margin-left: 5%;
+	padding-top: 4%;
 }
 .nov19
 {
@@ -1163,14 +1156,7 @@ button:focus {
 	margin-left: 27px;
 }
 
-.jal1
-{
-	border: 1px solid #bdbaba;
-	text-align:left;
-	float:left;
-	width:50%;
-	margin-left: 5%;
-}
+
 
 .calvin
 {
@@ -1182,6 +1168,7 @@ button:focus {
 width:30%;
 	float:left;
 	margin-left: 5%;
+	padding-top: 4%;
 }
 .apr19
 {
@@ -1189,14 +1176,7 @@ width:30%;
 	font-size:19px;
 }
 
-.chd
-{
-	border: 1px solid #bdbaba;
-	text-align:left;
-	float:left;
-	width:50%;
-	margin-left: 5%;
-}
+
 
 .calvinchd
 {
@@ -1223,7 +1203,9 @@ width:30%;
 	height: 125px;
 	text-align: center;
 	background-color: white;
-	border-bottom: 1px solid #dcd9d9;
+	width:100%;
+	padding-bottom:unset;
+	
 }
 
 .skill_header ul {
@@ -1270,7 +1252,7 @@ width:30%;
 	height: 225px;
 	text-align: -webkit-center;
 	background-color: #f2f2f5;
-	border-bottom: 1px solid #dcd9d9;
+	border-top: 1px solid #ccc;
 }
 
 .education-title {
@@ -1286,7 +1268,7 @@ width:30%;
 	width: 48%;
     height: 150px;
     border: 1px solid #bfb8b8;
-    
+    padding:unset;
     float: left;
     margin-left: 20px;
 }
