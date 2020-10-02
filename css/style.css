@@ -161,10 +161,7 @@ button:focus {
 	width: 75%;
 	float: left;
 }
-.aboutus
-{
-	text-align: left;
-}
+
 
 .aboutus p {
 	font-size: 36px;
@@ -580,7 +577,7 @@ width:30%;
 @media only screen and (min-width: 320px) {
 	.photo {
 		margin: 2% 19%;
-		height: 297px;
+		
 		width: 62%;
 
 	}
@@ -597,6 +594,7 @@ width:30%;
 		
 		filter: saturate(7);
 	}
+	
 	.headerarea {
 		width: 85%;
 		left: 8%;
@@ -626,6 +624,8 @@ width:30%;
 	.about-para
 	{
 		margin-right:unset;
+		
+    font-size: 13px;
 	}
 	.para
 	{
@@ -650,12 +650,12 @@ width:30%;
     margin-left: 94px;
 	}
 	.contact-us{
-	font-size: 35px;
+	font-size: 20px;
     width: 100%;
 	}
 	.contactttt
 	{
-		font-size: 59px;
+		font-size: 55px;
 	}
 	.connect-me
 	{
@@ -663,11 +663,11 @@ width:30%;
 	}
 	.joinnnn
 	{
-		font-size:59px;
+		font-size:55px;
 	}
 	#title_skill
 	{
-		font-size:59px;
+		font-size:55px;
 	}
 	
 	.nov17
@@ -678,11 +678,25 @@ width:30%;
 	}
 	.nov18
 	{
-		font-size: 15px;
+		font-size: 12px;
 	}
 	.nov19
 	{
-		font-size:15px;
+		font-size:12px;
+	}
+	.babashoep
+	{
+		    font-size: 16px;
+    
+    margin: unset;
+	}
+	
+	.graphic {
+    font-size: 14px;
+    margin:unset;
+	}
+	.assacc {
+    font-size: 14px;
 	}
 	.jal
 	{
@@ -697,6 +711,11 @@ width:30%;
     text-align: center;
     margin: unset;
 	}
+	.babashoee{
+	font-size: 16px;
+    
+    margin: unset;
+}
 	.nov
 	{
 		    width: 100%;
@@ -709,7 +728,16 @@ width:30%;
 	}
 	.apr19
 	{
-		font-size:15px;
+		font-size:12px;
+	}
+	.calvinchd {
+    font-size: 16px;
+	}
+	.assaccchd {
+	
+	font-size:14px;
+	margin:unset;
+	
 	}
 	.chd
 	{
@@ -719,15 +747,18 @@ width:30%;
 	}
 	.paragraph
 	{
-		padding: 0 58px;
-	}
+	
+    padding: 20px 11%;
+    font-size: 12px;
+}
+	
 	.middle
 	{
 		height:100%;
 	}
 	#title-mid
 	{
-		font-size: 59px;
+		font-size: 55px;
 	}
 	.skill_header
 	{
@@ -744,7 +775,7 @@ width:30%;
     padding: 0;
 	}
 #title-edu {
-   font-size:59px;
+   font-size:55px;
 }
 	.education
 	{
@@ -957,10 +988,6 @@ button:focus {
 	width: 75%;
 	float: left;
 }
-.aboutus
-{
-	text-align: left;
-}
 
 .aboutus p {
 	font-size: 36px;
@@ -1038,6 +1065,7 @@ button:focus {
 {
 	text-align: justify; 
 	padding: 0px 27px;
+	font-size: 14px;
 }
 .assacc
 {
