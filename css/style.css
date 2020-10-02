@@ -1253,6 +1253,7 @@ width:30%;
 	text-align: -webkit-center;
 	background-color: #f2f2f5;
 	border-top: 1px solid #ccc;
+	border-bottom:1px solid #ccc;
 }
 
 .education-title {
@@ -1318,7 +1319,8 @@ width:30%;
 	
 	background-color: white;
 	padding: 1px 0;
-	border-bottom: 1px solid #dcd9d9;
+	width:100%;
+	border-bottom:unset;
 }
 
 .contact-us {
