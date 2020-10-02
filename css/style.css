@@ -543,6 +543,32 @@ width:30%;
 
 }
 
+#fb
+{
+	
+	padding: 6px 9px; font-size: 20px;
+	
+	
+}
+#tweet
+{
+	padding: 6px 7px; font-size: 20px;
+	
+}
+#insta
+{
+	padding: 6px 7px; font-size: 20px;
+}
+#mail
+{
+	padding: 6px 6px; font-size: 20px;
+}
+
+
+
+
+
+
 
 
 .clear-fix {
@@ -594,7 +620,10 @@ width:30%;
 		
 		filter: saturate(7);
 	}
-	
+	.headarea {
+    position: relative;
+    height: 67%;
+	}
 	.headerarea {
 		width: 85%;
 		left: 8%;
@@ -615,6 +644,10 @@ width:30%;
 	.about-title
 	{
 		width: 100%;
+	}
+	.aboutus
+	{
+		height:75px;
 	}
 	.aboutus p
 	{
@@ -781,19 +814,15 @@ width:30%;
 	{
 		height: 421px;
 	}
-	.master
-	{
-		width: 50%;
-    float: unset;
-	}
+	
 	.bacholar
 	{
-		width: 90%;
+		width: 75%;
     float: unset;
 	
 	}
 	.master {
-    width: 90%;
+    width: 75%;
     float: unset;
 	}
 	.ikgp
@@ -808,12 +837,24 @@ width:30%;
 	{
 		font-size: 27px;
 	}
-	/*.facebook-icon i
+	#fb
 	{
-		padding: 6px 9px;
-    font-size: 38px;
-	}*/
-
+		    padding: 6px 9px;
+    font-size: 40px;
+	}
+	#tweet
+{
+	padding: 6px 7px; font-size: 40px;
+	
+}
+#insta
+{
+	padding: 6px 7px; font-size: 40px;
+}
+#mail
+{
+	padding: 6px 6px; font-size: 40px;
+}
 
 
 
@@ -889,7 +930,7 @@ a {
 
 .headarea {
 	position: relative;
-	height: 100%;
+	height: 85%;
 }
 
 .headerarea {
@@ -1341,6 +1382,25 @@ width:30%;
 	float: left;
 	margin-left: 16%;
 	margin-top: 7px;
+}
+#fb
+{
+	
+	padding: 6px 9px; font-size: 20px;
+	
+}
+#tweet
+{
+	padding: 6px 7px; font-size: 20px;
+	
+}
+#insta
+{
+	padding: 6px 7px; font-size: 20px;
+}
+#mail
+{
+	padding: 6px 6px; font-size: 20px;
 }
 
 .footer-content #fb:hover {
