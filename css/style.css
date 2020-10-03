@@ -334,20 +334,20 @@ button:focus {
 	height: 39px;
 
 }
-.ikgp
+.university-name
 {
 	font-size: 22px; 
 	float: left;
 	margin-top: 6px;
 	margin-left: 26px;
 }
-.nov14
+.time-duration
 {
 	float: right; 
 	padding: 12px; 
 	font-size: 17px;
 }
-.masterrr
+.class-name
 {
 	float: left;
 	font-size: 18px; 
@@ -730,15 +730,15 @@ float: left;
     padding-bottom: 4rem;
 
 	}
-	.ikgp
+	.university-name
 	{
 		font-size: 35px;
 	}
-	.nov14
+	.time-duration
 	{
 		font-size: 26px;
 	}
-	.masterrr
+	.class-name
 	{
 		font-size: 27px;
 	}
@@ -1124,20 +1124,20 @@ button:focus {
 	height: 39px;
 
 }
-.ikgp
+.university-name
 {
 	font-size: 22px; 
 	float: left;
 	margin-top: 6px;
 	margin-left: 26px;
 }
-.nov14
+.time-duration
 {
 	float: right; 
 	padding: 12px; 
 	font-size: 17px;
 }
-.masterrr
+.class-name
 {
 	float: left;
 	font-size: 18px; 
