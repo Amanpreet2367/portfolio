@@ -283,7 +283,7 @@ button:focus {
 
 }
 
-.experience-title {
+.experience-title-container {
 	text-align: center;
 }
 
@@ -613,7 +613,7 @@ float: left;
 	
 	
 	.contact-us{
-	font-size: 25px;
+	font-size: 30px;
     width: 100%;
 	}
 	.contactttt
@@ -1069,7 +1069,7 @@ button:focus {
 
 }
 
-.experience-title {
+.experience-title-container {
 	text-align: center;
 }
 
