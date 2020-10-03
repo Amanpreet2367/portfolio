@@ -61,7 +61,7 @@ a {
 	height: 100%;
 }
 
-.headerarea {
+.headerarea-content {
 	width: 41%;
 	position: absolute;
 	top: 19%;
@@ -71,7 +71,7 @@ a {
 
 }
 
-.headerarea h4 {
+.headerarea-content h4 {
 	text-align: center;
 	font-size: 2rem;
 	color: white;
@@ -169,7 +169,7 @@ button:focus {
 
 }
 
-.about-para {
+.about-content {
 	text-align: justify;
 
 	font-size: 18px;
@@ -182,7 +182,7 @@ button:focus {
 
 
 
-.middle {
+.experience {
 	width: 100%;
 	height: 500px;
 
@@ -201,29 +201,29 @@ button:focus {
 
 
 
-#title-mid {
+#title {
 	color: black;
 	font-size: 36px;
 }
-.babashoes-account
+.about-experience
 {
 	width:100%;
 	margin-top:12px;
 	    
 }
-.nov17
+.duration
 {
 	width:30%;
 	float:left;
 	margin-left: 5%;
 }
-.nov18
+.duration-time
 {
 	
 	color:black; 
 	font-size:19px;
 }
-.babashoep
+.comp-title
 {
 	
 	font-size: 26px; 
@@ -231,17 +231,17 @@ button:focus {
 	margin-left: 26px;
 	
 }
-.paragraph
+.description-about-job
 {
 	text-align: justify; 
 	padding: 0px 27px;
 }
-.assacc
+.desigination
 {
 	font-size: 19px;
 	margin-left: 27px;
 }
-.jal {
+.description {
 	border: 1px solid #bdbaba;
 	text-align:left;
 	float:left;
@@ -249,72 +249,8 @@ button:focus {
 	margin-left: 5%;
 	
 }
-.babashoesdesign
-{
-	width:100%;
-	margin-top:12px;
-	
-}
-.nov
-{
-	width:30%;
-	float:left;
-	margin-left: 5%;
-}
-.nov19
-{
-	color:black; 
-	font-size:19px;
-}
-.babashoee
-{
-	
-	font-size: 26px; 
-	margin-top: 6px;
-	margin-left: 26px;
-}
-.graphic
-{
-	font-size: 19px; 
-	margin-left: 27px;
-}
 
-
-
-.calvin
-{
-	width:100%;
-	margin-top:12px;
-}
-.april
-{
-width:30%;
-	float:left;
-	margin-left: 5%;
-}
-.apr19
-{
-	color:black; 
-	font-size:19px;
-}
-
-
-
-.calvinchd
-{
-	font-size: 26px;
-	margin-top: 6px;
-	margin-left: 26px;
-}
-.assaccchd
-{
-	font-size: 19px; 
-	margin-left: 27px;
-}
-
-
-
-/* middle area close */
+/* experience area close */
 
 
 
@@ -347,7 +283,7 @@ width:30%;
 
 }
 
-.skill-title {
+.experience-title {
 	text-align: center;
 }
 
@@ -615,7 +551,7 @@ width:30%;
     height: 90%;
 	}
 	
-	.headerarea {
+	.headerarea-content {
 		width: 79%;
 		left: 9%;
 
@@ -624,7 +560,7 @@ width:30%;
 	.content h1 {
 	letter-spacing:unset;
 	}
-	.headerarea h4 {
+	.headerarea-content h4 {
 		font-size: 4rem;
 	}
 
@@ -639,7 +575,7 @@ width:30%;
     float: left;
    
     border-bottom: 3px solid #ccc;
-    margin: 1rem 0;
+    margin: 0rem 0;
 }
 .about {
 height:unset;
@@ -661,7 +597,7 @@ float: left;
 		font-size: 55px;
     text-align: center;
 	}
-	.about-para
+	.about-content
 	{
 		margin-right:unset;
 		
@@ -697,33 +633,24 @@ float: left;
 		font-size:55px;
 	}
 	
-	.nov17
+	.duration
 	{
 		    width: 100%;
     
     margin: unset;
 	}
-	.nov18,
-	.nov19,.apr19
+	.duration-time
 	
 	{
 		font-size:26px;
 	}
-	.babashoep
-	{
-		    font-size: 16px;
-    
-    margin: unset;
-	}
 	
-	.graphic {
+	.desigination {
     font-size: 14px;
     margin:unset;
 	}
-	.assacc {
-    font-size: 14px;
-	}
-	.jal
+	
+	.description
 	{
 		width: 90%;
     text-align: center;
@@ -734,49 +661,28 @@ float: left;
    
 	}
 	
-	.babashoee{
+	.comp-title{
 	font-size: 16px;
     
     margin: unset;
 }
-	.nov
-	{
-		    width: 100%;
-    margin: unset;
-	}
-	.april
-	{
-		    width: 100%;
-    margin: unset;
-	}
 	
-	
-	.calvinchd {
-    font-size: 16px;
-	}
-	.assaccchd {
-	
-	font-size:14px;
-	margin:unset;
-	
-	}
-	
-	.paragraph
+	.description-about-job
 	{
 	
     padding: 20px 11%;
     font-size: 12px;
 }
 	
-	.middle
+	.experience
 	{
 		height:auto;
 	}
-	#title-mid
+	#exp-title
 	{
 		font-size: 55px;
 	}
-	.babashoes-account {
+	.about-experience {
    
     margin-top: 34px;}
 	.skill_header
@@ -819,9 +725,9 @@ float: left;
    
     
     border: 1px solid #ccc;
-    margin: 2rem 2rem;
+    margin: 2rem 3rem;
     padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 
 	}
 	.ikgp
@@ -932,7 +838,7 @@ a {
 	height: 85%;
 }
 
-.headerarea {
+.headerarea-content {
 	width: 41%;
 	position: absolute;
 	top: 19%;
@@ -942,7 +848,7 @@ a {
 
 }
 
-.headerarea h4 {
+.headerarea-content h4 {
 	text-align: center;
 	font-size: 2rem;
 	color: white;
@@ -1043,7 +949,7 @@ button:focus {
 {
 	padding:unset;
 }
-.about-para {
+.about-content {
 	text-align: justify;
 
 	font-size: 18px;
@@ -1056,7 +962,7 @@ button:focus {
 
 
 
-.middle {
+.experience {
 	width: 100%;
 	    padding: 2rem 0px;
     margin: 0rem 0px;
@@ -1076,30 +982,30 @@ button:focus {
 
 
 
-#title-mid {
+#exp-title {
 	color: black;
 	font-size: 36px;
 }
-.babashoes-account
+.about-experience
 {
 	width:100%;
 	margin-top:12px;
 	    height: 156px;
 }
-.nov17
+.duration
 {
 	width:30%;
 	float:left;
 	margin-left: 5%;
 	padding-top: 5%;
 }
-.nov18
+.duration-time
 {
 	
 	color:black; 
 	font-size:19px;
 }
-.babashoep
+.comp-title
 {
 	
 	font-size: 26px; 
@@ -1107,18 +1013,18 @@ button:focus {
 	margin-left: 26px;
 	
 }
-.paragraph
+.description-about-job
 {
 	text-align: justify; 
 	padding: 0px 27px;
 	font-size: 14px;
 }
-.assacc
+.desigination
 {
 	font-size: 19px;
 	margin-left: 27px;
 }
-.jal {
+.description {
 	border: 1px solid #bdbaba;
 	text-align:left;
 	float:left;
@@ -1128,75 +1034,8 @@ button:focus {
     padding: 1rem 0;
 
 }
-.babashoesdesign
-{
-	width:100%;
-	margin-top:12px;
-	height: 120px;
-}
-.nov
-{
-	width:30%;
-	float:left;
-	margin-left: 5%;
-	padding-top: 4%;
-}
-.nov19
-{
-	color:black; 
-	font-size:19px;
-}
-.babashoee
-{
-	
-	font-size: 26px; 
-	margin-top: 6px;
-	margin-left: 26px;
-}
-.graphic
-{
-	font-size: 19px; 
-	margin-left: 27px;
-}
 
-
-
-.calvin
-{
-	width:100%;
-	margin-top:12px;
-}
-.april
-{
-width:30%;
-	float:left;
-	margin-left: 5%;
-	padding-top: 4%;
-}
-.apr19
-{
-	color:black; 
-	font-size:19px;
-}
-
-
-
-.calvinchd
-{
-	font-size: 26px;
-	margin-top: 6px;
-	margin-left: 26px;
-}
-.assaccchd
-{
-	font-size: 19px; 
-	margin-left: 27px;
-}
-
-
-
-
-/* middle area close */
+/* experience area close */
 
 
 
@@ -1230,7 +1069,7 @@ width:30%;
 
 }
 
-.skill-title {
+.experience-title {
 	text-align: center;
 }
 
